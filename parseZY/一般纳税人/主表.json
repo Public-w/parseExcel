@@ -1,0 +1,310 @@
+[
+  {
+    "inputMessage": "17%、16%、13%、11%、10%、9% 货物【增值税专用发票、增值税专用发票电子、增值税普通发票、国税通用机打发票、增值税电子普票、无票收入、增值税普通发票卷票、通用定额发票】+17%、16%、13%货物【机动车销售统一发票】不即征即退,不代开--金额\t\t\t\t\t",
+    "ranges": "Q11:V11"
+  },
+  {
+    "inputMessage": "17%、11%、16%、10%、13%、9%加工修理修配劳务【增值税专用发票、增值税专用电子发票、增值税普通发票、国税通用机打发票、无票收入、增值税电子普票、通用定额发票、增值税普通卷票】不即征即退,不代开---金额\t\t\t\t\t",
+    "ranges": "Q12:V12"
+  },
+  {
+    "inputMessage": "\"0税率、免税、出口免税 货物【增值税专用发票、增值税普通发票、无票收入、增值税电子专用发票、机动车统一销售发票、增值税电子普票、商业发票】无论是否即征即退,不代开---金额\n\n（如果地区是河南，商贸型企业取出口免税 货物【无票收入】无论是否即征即退,不代开---金额，其他类型企业取0税率、免税、出口免税 货物【增值税专用发票、增值税普通发票、增值税电子专用发票、机动车统一销售发票、增值税电子普票、商业发票】无论是否即征即退,不代开---金额+免税、0税率货物【无票收入】无论是否即征即退,不代开---金额）\"\t\t\t\t\t",
+    "ranges": "Q18:V18"
+  },
+  {
+    "inputMessage": "\"0税率、免税、出口免税 加工修理修配劳务【增值税专用发票、增值税普通发票、无票收入、增值税电子专用发票、机动车统一销售发票、增值税电子普票、商业发票】无论是否即征即退,不代开---金额\n\n（如果地区是河南，商贸型企业取出口免税 加工修理修配劳务【无票收入】无论是否即征即退,不代开---金额，其他类型企业取0税率、免税、出口免税 加工修理修配劳务【增值税专用发票、增值税普通发票、增值税电子专用发票、机动车统一销售发票、增值税电子普票、商业发票】无论是否即征即退,不代开---金额+免税、0税率加工修理修配劳务【无票收入】无论是否即征即退,不代开---金额）\"\t\t\t\t\t",
+    "ranges": "Q19:V19"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t\t\t",
+    "ranges": "Q24:V24, Q31:V31"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t\t\t",
+    "ranges": "Q35:V35, Q40:V40, Q44:V44"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t\t\t",
+    "ranges": "Q38:V38"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t\t\t",
+    "ranges": "Q46:V46"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t\t\t\t\t",
+    "ranges": "W22:AD22, W26:AD26, W27:AD27, W29:AD29, W35:AD35, W37:AD37, W38:AD38, W42:AD42, W43:AD43, W44:AD44"
+  },
+  {
+    "inputMessage": "17%、16%、13%、11%、10%、9%货物【增值税专用发票、增值税专用电子发票、增值税普通发票、增值税电子普票、通用定额发票、国税通用机打发票】+17%、16%、13%货物【机动车销售统一发票】即征即退,不代开---金额\t\t\t",
+    "ranges": "AE11:AH11"
+  },
+  {
+    "inputMessage": "17%、16%、13%、11%、10%、9%加工修理修配劳务【增值税专用发票、增值税专用电子发票、增值税普通发票、增值税电子普票、通用定额发票、国税通用机打发票】即征即退,不代开---金额\t\t\t",
+    "ranges": "AE12:AH12"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t",
+    "ranges": "AE13:AH13, AE15:AH15, AE16:AH16, AE17:AH17, AE18:AH18, AE19:AH19"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t",
+    "ranges": "AE23:AH23, AE24:AH24, AE25:AH25"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t",
+    "ranges": "AE31:AH31, AE32:AH32, AE35:AH35, AE37:AH37, AE38:AH38, AE40:AH40, AE44:AH44, AE45:AH45, AE46:AH46, AE47:AH47"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t",
+    "ranges": "AI45:AL47"
+  },
+  {
+    "inputMessage": "默认取0\t\t\t",
+    "ranges": "AI43:AL43, AI42:AL42, AI38:AL38, AI37:AL37, AI35:AL35, AI31:AL31, AI29:AL29, AI26:AL26, AI25:AL25, AI24:AL24, AI23:AL23, AI22:AL22, AI19:AL19, AI18:AL18, AI17:AL17, AI16:AL16"
+  },
+  {
+    "inputMessage": "[AE41]\t\t\t",
+    "ranges": "AI41:AL41"
+  },
+  {
+    "inputMessage": "取自【附表一】：第1行第9列+第2行第9列+第3行第9列+第4行第9列+第5行第9列-第6行第9列-第7行第9列\t\t\t\t\t\t\t",
+    "ranges": "Q10:V10"
+  },
+  {
+    "inputMessage": "取自【附表一】：第1行第7列+第2行第7列+第3行第7列+第4行第7列+第5行第7列\t\t\t\t\t\t\t",
+    "ranges": "Q13:V13"
+  },
+  {
+    "inputMessage": "取自【附表一】：第8行第9列+第9a行第9列+第9b行第9列+第10行第9列+第11行第9列+第12行第9列+第13a行第9列+第13b行第9列-第14行第9列-第15行第9列+第13c行第9列",
+    "ranges": "Q14:V14"
+  },
+  {
+    "inputMessage": "取自【附表一】：第8行第7列+第9a行第7列+第9b行第7列+第10行第7列+第11行第7列+第12行第7列+第13a行第7列\t\t",
+    "ranges": "Q15:V15"
+  },
+  {
+    "inputMessage": "取自【附表一】：第16行第9列+第17行第9列\t\t",
+    "ranges": "Q16:V16"
+  },
+  {
+    "inputMessage": "取自【附表一】：第18行第9列+第19行第9列\t\t",
+    "ranges": "Q17:V17"
+  },
+  {
+    "inputMessage": "取附表一：第1行第10列+第3行第10列-第6行第10列+第2行第14列+第4行第14列+第5行第14列-第7行第14列",
+    "ranges": "Q20:V20"
+  },
+  {
+    "inputMessage": "\"附表二：第5行税额-如果企业存在辅导期则取值为0,否则取值：(进项发票【增值税专用发票】税额+进项发票【增值税专用电子发票】税额+进项发票【机动车销售】税额+进项发票【货物运输业增值税专用发票】税额+如果(进项发票【农产品发票】税额>0,取进项发票【农产品发票】税额+附表二：第8a行税额,否则为0))\t\"\t\t\t\t\t",
+    "ranges": "Q21:V21"
+  },
+  {
+    "inputMessage": "取自附表二：13行\t\t\t\t\t\t\t",
+    "ranges": "Q23:V23"
+  },
+  {
+    "inputMessage": "取自【附表一】：第1行第8列+第2行第8列+第3行第8列+第4行第8列+第5行第8列+【附表二】：19行\t\t",
+    "ranges": "Q25:V25"
+  },
+  {
+    "inputMessage": "行次12+13-14-15+16\t\t\t\t\t\t\t",
+    "ranges": "Q26:V26"
+  },
+  {
+    "inputMessage": "如果【行次17-11】<0,则取【17行】,否则取【11行】\t\t\t\t\t\t\t\t",
+    "ranges": "Q27:V27"
+  },
+  {
+    "inputMessage": "如果附表四：第6行第5列<0,取11行-18行,否则取：11行-18行-附表四：第6行第5列\t\t\t\t\t\t\t\t",
+    "ranges": "Q28:V28"
+  },
+  {
+    "inputMessage": "行次17-18\t\t\t\t\t",
+    "ranges": "Q29:V29"
+  },
+  {
+    "inputMessage": "取自【附表一】：第8行第10列+第9行第10列+第9b行14列+第10行第10列+第11行第10列+第12行第14列-第14行第10列-第15行14列+第13a第14列+第13b第14列\t\t\t\t\t\t\t\t",
+    "ranges": "Q30:V30"
+  },
+  {
+    "inputMessage": "行次19+21-23\t\t\t\t\t\t",
+    "ranges": "Q33:V33"
+  },
+  {
+    "inputMessage": "取32行上期【本月数】\t\t\t\t\t\t\t",
+    "ranges": "Q34:V34"
+  },
+  {
+    "inputMessage": "行次28+29+30+31",
+    "ranges": "Q36:V36"
+  },
+  {
+    "inputMessage": "取自【附表四】：第2行第4列+第3行第4列+第4行第4列+第5行第4列\t\t\t\t\t\t\t\t\t",
+    "ranges": "Q37:V37"
+  },
+  {
+    "inputMessage": "取34行上期【本月数】\t\t\t\t\t\t\t\t\t",
+    "ranges": "Q39:V39"
+  },
+  {
+    "inputMessage": "行次24+25+26-27\t\t\t\t",
+    "ranges": "Q41:V41"
+  },
+  {
+    "inputMessage": "如果25行-27行>0,则取行次25行-27行,否则为0\t\t\t\t\t\t\t\t",
+    "ranges": "Q42:V42"
+  },
+  {
+    "inputMessage": "行次24-28-29\t\t\t\t\t\t\t",
+    "ranges": "Q43:V43"
+  },
+  {
+    "inputMessage": "取38行上期【本月数】\t\t\t\t\t\t\t\t\t",
+    "ranges": "Q45:V45"
+  },
+  {
+    "inputMessage": "行次16+22+36-37\t\t\t\t\t\t\t\t",
+    "ranges": "Q47:V47"
+  },
+  {
+    "inputMessage": "本月数+上期【本年累计】\t\t\t\t\t\t\t\t\t\t\t",
+    "ranges": "W10:AD21, W23:AD25, W28:AD28, W30:AD33, W36:AD36, W39:AD40, W46:AD46"
+  },
+  {
+    "inputMessage": "本月数",
+    "ranges": "W41:AD41"
+  },
+  {
+    "inputMessage": "上期【本年累计】",
+    "ranges": "W45:AD45"
+  },
+  {
+    "inputMessage": "本月数",
+    "ranges": "W47:AD47"
+  },
+  {
+    "inputMessage": "取自【附表一】：第6行第9列+第7行第9列",
+    "ranges": "AE10:AH10"
+  },
+  {
+    "inputMessage": "取自【附表一】：第14行第9列+第15行第9列",
+    "ranges": "AE14:AH14"
+  },
+  {
+    "inputMessage": "取自【附表一】：第6行第10列+第7行第14列",
+    "ranges": "AE20:AH20"
+  },
+  {
+    "inputMessage": "取自【附表二】：第12行税额-【主表】：第12行本月数",
+    "ranges": "AE21:AH21"
+  },
+  {
+    "inputMessage": "取20行上期【本月数】\t\t\t",
+    "ranges": "AE22:AH22"
+  },
+  {
+    "inputMessage": "行次12+13-14\t\t\t",
+    "ranges": "AE26:AH26"
+  },
+  {
+    "inputMessage": "如果【行次17-11】<0,则取【17行】,否则取【11行】\t\t\t",
+    "ranges": "AE27:AH27"
+  },
+  {
+    "inputMessage": "如果附表四：第7行第5列<0，取11行-18行,否则取11行-18行-附表四：第7行第5列\t\t\t\t",
+    "ranges": "AE28:AH28"
+  },
+  {
+    "inputMessage": "行次17-18\t\t\t",
+    "ranges": "AE29:AH29"
+  },
+  {
+    "inputMessage": "取自【附表一】：第14行第10列+第15行第14列\t\t\t",
+    "ranges": "AE30:AH30"
+  },
+  {
+    "inputMessage": "行次19+21-23\t\t\t",
+    "ranges": "AE33:AH33"
+  },
+  {
+    "inputMessage": "取32行上期【本月数】\t\t\t\t",
+    "ranges": "AE34:AH34"
+  },
+  {
+    "inputMessage": "行次28+30+31\t\t\t",
+    "ranges": "AE36:AH36"
+  },
+  {
+    "inputMessage": "取34行上期【本月数】\t\t\t",
+    "ranges": "AE39:AH39"
+  },
+  {
+    "inputMessage": "行次24+25-27\t\t\t",
+    "ranges": "AE41:AH41"
+  },
+  {
+    "inputMessage": "如果25行-27行>0,则取行次25行-27行,否则为0\t\t\t",
+    "ranges": "AE42:AH42"
+  },
+  {
+    "inputMessage": "行次24-28\t\t\t",
+    "ranges": "AE43:AH43"
+  },
+  {
+    "inputMessage": "本月数+上期【本年累计】\t\t\t",
+    "ranges": "AI10:AL15"
+  },
+  {
+    "inputMessage": "本月数+上期【本年累计】\t\t\t",
+    "ranges": "AI20:AL21"
+  },
+  {
+    "inputMessage": "本月数+上期【本年累计】\t\t\t\t",
+    "ranges": "AI28:AL28, AI30:AL30, AI32:AL32, AI33:AL33"
+  },
+  {
+    "inputMessage": "本月数+上期【本年累计】\t\t\t\t\t\t",
+    "ranges": "AI36:AL36, AI39:AL39, AI40:AL40"
+  },
+  {
+    "inputMessage": "本月数+上期【本年累计】\t\t\t",
+    "ranges": "AI44:AL44"
+  },
+  {
+    "inputMessage": "本月数+上期【本年累计】\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+    "ranges": "W48:AD50"
+  },
+  {
+    "inputMessage": "取【附加税应纳税额】第1行第12列+【附加税本期应补退税额】第1行第12列\t\t\t\t",
+    "ranges": "Q48:V48"
+  },
+  {
+    "inputMessage": "取【附加税应纳税额】第2行第12列+【附加税本期应补退税额】第2行第12列\t\t\t\t\t",
+    "ranges": "Q49:V49"
+  },
+  {
+    "inputMessage": "取【附加税应纳税额】第3行第12列+【附加税本期应补退税额】第2行第12列\t\t",
+    "ranges": "Q50:V50"
+  },
+  {
+    "inputMessage": "按上期第32行：本月数填写\t\t\t\t\t\t\t\t\t\t\t\t",
+    "ranges": "W34:AD34"
+  },
+  {
+    "inputMessage": "按上年12账期第32行：本年累计填写\t\t\t\t",
+    "ranges": "AI34:AL34"
+  },
+  {
+    "inputMessage": "取20行上期【本月数】\t\t\t\t\t\t\t\t\t",
+    "ranges": "Q22:V22"
+  },
+  {
+    "inputMessage": "如果地区为：山东、上海、云南、山西、陕西取上期（本月数+本年累计），否则取0\t\t\t",
+    "ranges": "AI27:AL27"
+  },
+  {
+    "inputMessage": "取自【增值税减免税申报明细表】：[G8]+[G9]+[G10]+[G11]+[G12]\t\t\t\t\t",
+    "ranges": "Q32:V32"
+  }
+]

@@ -1,0 +1,15 @@
+logs/
+npm-debug.log
+yarn-error.log
+node_modules/
+package-lock.json
+yarn.lock
+__html__/
+__photoes__/
+__excel__/
+__textpdf__/
+__pdf__/
+__pdfJson__/
+html/
+excel/
+pdf/

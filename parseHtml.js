@@ -14,9 +14,8 @@
   let floatType = false
   //拿到Form元素和文字
   const traversChild = (node) => {
-      // console.log(node)
       // tempDoms = [];
-      const bool = checkNode(node, false);
+      const bool = checkNode(node);
       //处理元素隐藏
       if (bool) {
         // tempStyle = {};
@@ -26,7 +25,7 @@
           const children = node.childNodes;    
           if (children && children.length) {
               Array.from(children).forEach((child, index) => {
-                //   console.log('child', child, child.nodeName, children)
+                //   console.log('child', NODES, node)
                   const nodeName = child.nodeName;
                   if(nodeName === 'TABLE' && node.nodeName === 'TD') {
                       traversChild(child);
@@ -125,30 +124,45 @@
                 ...tempStyle,
                 ...getStyleAndAttrs(node)
             };
-              if (['INPUT', 'SELECT', 'TEXTAREA'].includes(node.nodeName)) {
-                  console.log(node)
-                  const xpath = readXPath(node);
-                  node.xpath = xpath;
-                  tempDoms.push(node);
-              } else
-              if (node.nodeName === '#text' && node.nodeValue.trim() !== '') {
-                    // console.log(node)
-                  tempDoms.push(node.nodeValue);
-              } else {
+            if (['INPUT', 'SELECT', 'TEXTAREA'].includes(node.nodeName)) {
+                // console.log(node)
+                const xpath = readXPath(node);
+                node.xpath = xpath;
+                tempDoms.push(node);
+            } else
+            if (node.nodeName === '#text' && node.nodeValue.trim() !== '') {
+                console.log(node)
+                tempDoms.push(node.nodeValue);
+            } else {
+                if(node.nodeType === 1) {
+                    const nodeStyle = getComputedStyle(node, null)
+                    const nodeWidth = nodeStyle.width
+                    if(nodeWidth === 'auto' 
+                    || nodeWidth ==='15px' 
+                    || nodeWidth === '5px'
+                    || nodeWidth ==='9px') return
+                    tempDoms.push('');
+                }
                 if(node.nodeType === 3) {
+                    console.log(node);
                     const nodeStyle = getComputedStyle(node.parentNode, null)
                     const nodeWidth = nodeStyle.width
-                    if(nodeWidth === 'auto' || nodeWidth ==='15px' || nodeWidth <='5px') return
-                    // console.log(node, node.parentNode)
+                    if(nodeWidth === 'auto' 
+                    || nodeWidth ==='15px' 
+                    || nodeWidth ==='5px'
+                    || nodeWidth ==='9px') return
                     tempDoms.push('');
                 } else {
                     const nodeStyle = getComputedStyle(node, null)
                     const nodeWidth = nodeStyle.width
-                    if(nodeWidth === 'auto' || nodeWidth ==='15px' || nodeWidth <='5px') return
+                    if(nodeWidth === 'auto' 
+                    || nodeWidth ==='15px' 
+                    || nodeWidth ==='5px'
+                    || nodeWidth ==='9px') return
                     // console.log(node)
                     tempDoms.push('');
                 }
-              }
+            }
           }
       }
   };
@@ -160,10 +174,20 @@
       floatType = false
       const bool = checkNode(NODE);
       if(bool) {
-        if(NODE.nodeType === 3) return
-        tempStyle.height = NODE.offsetHeight;
-        tempStyle.width = NODE.offsetWidth;
-        traversChild(NODE)
+        if(NODE.nodeType === 8) return
+        if(NODE.nodeType === 3) {
+            tempStyle.height = NODE.parentNode.offsetHeight;
+            tempStyle.width = NODE.parentNode.offsetWidth;
+            // console.log(NODE.parentNode, NODE.parentNode.childNodes);
+            if(NODE.parentNode.childNodes.length === 1) {
+                traversChild(NODE.parentNode)
+            }
+        } else {
+            tempStyle.height = NODE.offsetHeight;
+            tempStyle.width = NODE.offsetWidth;
+            // console.log(NODE.parentNode, NODE.parentNode.childNodes);
+            traversChild(NODE)
+        }
       }
     //   console.log(tempStyle, tempDoms, NODE, NODE.parentNode)
       if (tempText) {
@@ -305,7 +329,8 @@ const checkNode = (NODE, isCheckParent, isCheckVisible) => {
           display === 'none' ||
           visibility === 'hidden' || 
           height === '0px' || 
-          width === '0px'
+          width === '0px' || 
+          TEMPNODE.getBoundingClientRect().x<0
       // position === 'absolute'
       ) {
           isHidden = true;
@@ -522,31 +547,63 @@ const xpathToDom = (xpath) => {
 
 //判断表格行数最长
 const maxNodeLength = (node)=> {
+    if(node.nodeName === 'BODY' || node.nodeName === 'HTML') return
     if(node.parentNode.nodeName === 'BODY') {
         return Number(getComputedStyle(node, null).width.split('px')[0])
     } else {
         return maxNodeLength(node.parentNode)
     }
 }
+//判断当前dom节点子节点是否含有最长元素
+const checkNowNode = (node)=> {
+    const maxNode = maxNodeLength(node)
+    const childNodes = node.childNodes
+    const allWidth = Array.from(childNodes).map((child)=> {
+        if(child.nodeType === 1) {
+            const childStyle = getComputedStyle(child, null);
+            const childWidth = Number(childStyle.width.split('px')[0]);
+            return childWidth
+        }
+    })
+    return allWidth.filter((width)=>width).some((value)=> maxNode-10 <=value)
+}
 
   //判断元素是否是最外层
  const checkNodeWidth = (node)=> {
-	 console.log(node.parentNode)
+	//  console.log(node.parentNode)
     // return node
-    // const maxNode = document.getElementsByTagName('body')
+    const bodyNode = document.getElementsByTagName('body')
     const maxNode = maxNodeLength(node)
+    if(maxNode<800) return 
     const style = getComputedStyle(node, null);
     const width = Number(style.width.split('px')[0]);
-    // const maxWidth = Number(getComputedStyle(maxNode[0], null).width.split('px')[0])
-		// console.log(maxNode, node, width, maxNode-5 < width)
-    if(maxNode-25 < width) {
-      if(node.nodeName !== 'BODY') {
-        return node
-      }
+    const height = Number(style.height.split('px')[0]);
+    const maxWidth = Number(getComputedStyle(bodyNode[0], null).width.split('px')[0])
+    if(maxWidth-5 > maxNode) {
+        if(maxNode-160 < width && height<200) {
+            if(node.nodeName !== 'BODY') {
+              if(!checkNowNode(node)) {
+                // console.log(node, node.childNodes);
+                return node
+              }
+            }
+        } else {
+            if (node.nodeName !== 'BODY' && node.parentNode) {
+                return checkNodeWidth(node.parentNode);
+            }
+        }
     } else {
-      if (node.nodeName !== 'BODY' && node.parentNode) {
-        return checkNodeWidth(node.parentNode);
-      }
+        if(maxNode-20 < width && height<200) {
+            if(node.nodeName !== 'BODY') {
+                if(!checkNowNode(node)) {
+                    return node
+                }
+            }
+          } else {
+            if (node.nodeName !== 'BODY' && node.parentNode) {
+              return checkNodeWidth(node.parentNode);
+            }
+        }
     }
   }
   //判断元素是否隐藏
@@ -572,7 +629,12 @@ const maxNodeLength = (node)=> {
   const diffDom=(dom, allDom)=> {
     let diff = false
     allDom.forEach((cnt)=> {
-      if(cnt.node === dom.node && cnt.place === dom.place) {
+    //   if(cnt.node === dom.node && cnt.place === dom.place) {
+    //     diff = false
+    //   } else {
+    //     diff = true
+    //   }
+      if(cnt.place === dom.place || cnt.node === dom.node) {
         diff = false
       } else {
         diff = true
@@ -580,8 +642,6 @@ const maxNodeLength = (node)=> {
     })
     return diff
   }
-
-// import getCssSelector from 'css-selector-generator';
 class DomTree {
   formTypes;
   inputs;
@@ -622,7 +682,8 @@ class ForDom extends DomTree {
           source: {
               windowWidth: window.innerWidth,
           },
-          data: this.data,
+          data: [{table:this.data}],
+            // data: this.data,
           contrastData: this.contrastData
           // table: this.tables
       });
@@ -638,80 +699,43 @@ class ForDom extends DomTree {
   //遍历body下所有元素，过滤
   traversAllDom(body) {
     Array.from(body).forEach((child)=> {
-      if(child.nodeName === 'SCRIPT' ||child.nodeName === 'LINK' ||　getComputedStyle(child.parentNode, null).display　=== 'none' ||　getComputedStyle(child.parentNode, null).height　 === '0px'||getComputedStyle(child.parentNode, null).visibility === 'hidden') return
-      if(child.nodeType == 1 && child){ 
-        if(getComputedStyle(child, null).display　=== 'none' ||　getComputedStyle(child, null).height　 === '0px'||getComputedStyle(child, null).visibility === 'hidden' ||　getComputedStyle(child, null).width === '0px') return
+      if(child.nodeName === 'SCRIPT' || child.nodeName === 'LINK' ||　!checkNode(child)) return
+        if(!checkNode(child)) return
         if(child.hasChildNodes()){    
             var sonnodes = child.childNodes;
             this.traversAllDom(sonnodes);
         } else {
-					// console.log(child.parentNode.parentNode)
-					if(child.parentNode.nodeName === 'BODY' || child.parentNode.nodeName === 'BODY' || child.parentNode.nodeName === 'COL' || child.parentNode.nodeName === 'COLGROUP') return
-					const prevNode = checkNodeWidth(child.parentNode)
-					// console.log(prevNode)
-					if(!prevNode || prevNode.nodeName === 'COLGROUP') return
-					// const prevNodePlace = getComputedStyle(prevNode, null).top
-					const prevNodePlace =  prevNode.getBoundingClientRect().top
-					const prev = {
-						node: prevNode,
-						place: prevNodePlace
-					}
-					// console.log(prevNode)
-					if(diffDom(prev, this.parents)) {
-						// console.log(prevNode, prevNode.childNodes, getComputedStyle(prevNode, null).scrollTop, prevNode.getBoundingClientRect().top)
-						const doms = traversDom(prevNode.childNodes, prevNode)          
-					//   this.data.push({
-					//     table:[doms.doms]
-					//   })
-						this.data.push(doms.doms)
-							const filterContrast = doms.contrast.map((item)=> {
-								return {
-									index: doms.contrast.length,
-									path: item.msgTree
-								}
-							})
-						this.contrastData.push(filterContrast)
-					}
-					this.parents.push({
-						node: prevNode,
-						place: prevNodePlace
-					})
-				}
-        // const maxNode = maxNodeLength(child)
-        // const style = getComputedStyle(child, null);
-        // const width = Number(style.width.split('px')[0]);
-        // // const maxWidth = Number(getComputedStyle(maxNode[0], null).width.split('px')[0])
-        // if(width > maxNode-3) return
-
-        // if(child.parentNode.nodeName === 'BODY' || child.nodeName === 'BODY' || child.nodeName === 'COL' || child.nodeName === 'COLGROUP') return
-        // const prevNode = checkNodeWidth(child)
-        // // console.log(prevNode)
-        // if(!prevNode || prevNode.nodeName === 'COLGROUP') return
-        // const prevNodePlace = getComputedStyle(prevNode, null).top
-        // const prev = {
-        //   node: prevNode,
-        //   place: prevNodePlace
-        // }
-        // if(diffDom(prev, this.parents)) {
-        //   // console.log(child, child.nodeName, prevNode)
-        //   const doms = traversDom(prevNode.childNodes, prevNode)          
-        // //   this.data.push({
-        // //     table:[doms.doms]
-        // //   })
-        // this.data.push(doms.doms)
-        //   const filterContrast = doms.contrast.map((item)=> {
-        //       return {
-        //         index: doms.contrast.length,
-        //         path: item.msgTree
-        //       }
-        //   })
-        //   this.contrastData.push(filterContrast)
-        // }
-        // this.parents.push({
-        //   node: prevNode,
-        //   place: prevNodePlace
-        // })
-      }
+            if(
+                child.parentNode.nodeName === 'BODY' || 
+                child.parentNode.nodeName === 'BODY' || 
+                child.parentNode.nodeName === 'COL'  || 
+                child.parentNode.nodeName === 'COLGROUP'
+            ) return
+            const prevNode = checkNodeWidth(child.parentNode)
+            // console.log(child, child.parentNode);
+            if(!prevNode || prevNode.nodeName === 'COLGROUP') return
+            const prevNodePlace =  prevNode.getBoundingClientRect().top
+            const prev = {
+                node: prevNode,
+                place: prevNodePlace
+            }
+            if(diffDom(prev, this.parents)) {
+                // console.log(prev, prevNode, prevNode.childNodes);
+                const doms = traversDom(prevNode.childNodes, prevNode)
+                this.data.push(doms.doms)
+                    const filterContrast = doms.contrast.map((item)=> {
+                        return {
+                            index: doms.contrast.length,
+                            path: item.msgTree
+                        }
+                    })
+                this.contrastData.push(filterContrast)
+            }
+            this.parents.push({
+                node: prevNode,
+                place: prevNodePlace
+            })
+        }
     })
   }
   traversIframe(root) {

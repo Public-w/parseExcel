@@ -14,6 +14,7 @@ const traversDom = (NODES) => {
     let floatType = false
     //拿到Form元素和文字
     const traversChild = (node) => {
+        if(node.nodeName === 'TABLE') return
         // console.log('node', node, node.childNodes)
         const bool = checkNode(node, false);
         //处理元素隐藏
@@ -43,6 +44,28 @@ const traversDom = (NODES) => {
                 tempStyle = {
                     ...tempStyle,
                     ...getStyleAndAttrs(node.parentNode)
+                };
+                tempMessage = {
+                    ...tempMessage,
+                    ...getTempMsg(node)
+                };
+                msgTree = getCssSelectorShort(node);
+            }
+            if (node.nodeName === 'TD') {
+                const { colspan, rowspan } = node.attributes;
+                tempStyle.height = node.parentNode.childNodes.length === 1?(node.offsetHeight + 5) : (node.offsetHeight + 1);
+                tempStyle.width = node.parentNode.childNodes.length === 1 ?(node.offsetWidth + 5) : (node.offsetWidth + 1);
+                tempStyle.wordBreak = getComputedStyle(node, null).wordBreak;
+                tempStyle.colspan = colspan && colspan.nodeValue;
+                tempStyle.rowspan = rowspan && rowspan.nodeValue;
+                if(node.className.indexOf('edit') !== -1) {
+                    floatType = true
+                } else {
+                    floatType = false
+                }
+                tempStyle = {
+                    ...tempStyle,
+                    ...getStyleAndAttrs(node)
                 };
                 tempMessage = {
                     ...tempMessage,
@@ -270,7 +293,7 @@ const traversDom = (NODES) => {
         tempMessage = {};
         msgTree = '';
         floatType = false
-        console.log(NODE)
+        // console.log(NODE)
         // if(getComputedStyle(NODE, null).display === 'none') return
         traversChild(NODE);
         if (tempText) {
@@ -851,7 +874,26 @@ class ForDom extends DomTree {
             }
             if (getComputedStyle(table, null).display !== 'none' &&  table.parentNode.nodeName !== 'DIV' && table.parentNode.nodeName !=='TD') {
                 const moreTables = table.getElementsByTagName('table');
-                console.log(1, table)
+                if(moreTables.length > 0) {
+                    for(let i = 1; i<moreTables.length; i++) {
+                        if(moreTables[i].parentNode.nodeName === 'TD') {
+                            self.traversTable(table);
+                            if (self.tables.length) {
+                                self.data.push({
+                                    table: self.tables,
+                                    colgroup: colgroup.length ? colgroup.length: '',
+                                    top: table.getBoundingClientRect().top
+                                });
+                            }
+                            if(self.contrastTables.length) {
+                                self.contrastData.push({
+                                    contrast:self.contrastTables,
+                                });
+                            }
+                        }
+                        break
+                    }
+                } 
                 if (moreTables.length === 0) {
                     self.traversTable(table);
                     console.log(self.tables.length)
@@ -871,7 +913,7 @@ class ForDom extends DomTree {
                 }
                 return
             }
-            if (getComputedStyle(table.parentNode, null).display !== 'none' &&  table.parentNode.parentNode.nodeName !== 'DIV' &&  table.parentNode.parentNode.nodeName !== 'BODY') {
+            if (getComputedStyle(table.parentNode, null).display !== 'none' &&  table.parentNode.parentNode.nodeName !== 'DIV' &&  table.parentNode.parentNode.nodeName !== 'BODY' && table.parentNode?.nodeName !== 'DIV') {
                 if(table.parentNode.nodeName === 'TD') return
                 const moreTables = table.getElementsByTagName('table');
                 console.log(1, table,moreTables, getComputedStyle(table, null).height)
@@ -896,6 +938,7 @@ class ForDom extends DomTree {
                     }
                 }               
                 if (moreTables.length === 0) {
+                    // console.log(table, table.childNodes)
                     self.traversTable(table);
                     if (self.tables.length) {
                         self.data.push({
@@ -1011,8 +1054,28 @@ class ForDom extends DomTree {
                 return
             }
             if(table.parentNode.parentNode?.parentNode?.nodeName === 'DIV' && getComputedStyle(table.parentNode.parentNode?.parentNode, null).display !== 'none' && table.parentNode.parentNode?.parentNode?.parentNode?.nodeName === 'BODY') {
-                console.log(1, table)
                 const moreTables = table.getElementsByTagName('table');
+                console.log(1, table, moreTables)
+                if(moreTables.length > 0) {
+                    for(let i = 0;i<moreTables.length; i++) {
+                        if(moreTables[i].parentNode.nodeName === 'TD') {
+                            self.traversTable(table);
+                            if (self.tables.length) {
+                                self.data.push({
+                                    table: self.tables,
+                                    colgroup: colgroup.length ? colgroup.length: '',
+                                    top: table.getBoundingClientRect().top
+                                });
+                            }
+                            if(self.contrastTables.length) {
+                                self.contrastData.push({
+                                    contrast:self.contrastTables,
+                                });
+                            }
+                            break
+                        }
+                    }
+                }
                 if (moreTables.length === 0) {
                     self.traversTable(table);
                     if (self.tables.length) {
@@ -1070,7 +1133,7 @@ class ForDom extends DomTree {
                 }
                 return
             }
-            if(table.parentNode.parentNode.parentNode.parentNode.parentNode?.parentNode?.nodeName === 'DIV' && getComputedStyle(table.parentNode.parentNode.parentNode.parentNode.parentNode?.parentNode, null).display !== 'none' && table.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode?.parentNode?.nodeName === 'BODY') {
+            if(table.parentNode.parentNode.parentNode.parentNode.parentNode?.parentNode?.nodeName === 'DIV' && getComputedStyle(table.parentNode.parentNode.parentNode.parentNode.parentNode?.parentNode, null).display !== 'none' && table.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode?.parentNode?.nodeName === 'BODY' && table.parentNode?.nodeName !== 'DIV') {
                 const moreTables = table.getElementsByTagName('table');
                 console.log(1, table, moreTables)
                 if (moreTables.length === 0) {
@@ -1331,7 +1394,7 @@ class ForDom extends DomTree {
         });
     }
     traversTable(NODE) {
-        // console.log('222222', NODE)
+        console.log('222222', NODE)
         const self = this;
         //获取iframe下所有的input数量
         // const allInputs = self.allInputs;
@@ -1363,21 +1426,32 @@ class ForDom extends DomTree {
                 const TDDOMS = Array.from(trDom.getElementsByTagName('td'));
                 //@ts-ignore
                 const THDOM = Array.from(trDom.getElementsByTagName('th'));
+                // console.log(TDDOMS, THDOM, trDom.childNodes)
                 if (Array.from(trDom.childNodes).length === 0) {
                     const trDoms = traversDom(Array.from(trDom.childNodes));
                     self.tables.push(trDoms.doms);
                     self.contrastTables.push(trDoms.contrast)
                 }
                 if (THDOM.length !== 0 || TDDOMS.length !== 0) {
+                    // console.log(trDom.childNodes)
                     for(let i=0;i<trDom.childNodes.length;i++) {
-                        if(trDom.childNodes[i].parentNode.parentNode.parentNode.parentNode.nodeName === 'TD') {
-                            return
-                        } else {
+                        // if(trDom.childNodes[i].parentNode.parentNode.parentNode.parentNode.nodeName === 'TD') {
+                        //     return
+                        // } else {
+                        //     const thDom = traversDom(trDom.childNodes);
+                        //     // console.log(trDom.childNodes, thDom)
+                        //     self.tables.push(thDom.doms);
+                        //     self.contrastTables.push(thDom.contrast)
+                        // }
+                        // break
+                        // if(trDom.childNodes[i].parentNode.parentNode.parentNode.parentNode.nodeName === 'TD') {
+                        //     return
+                        // } else {
                             const thDom = traversDom(trDom.childNodes);
                             // console.log(trDom.childNodes, thDom)
                             self.tables.push(thDom.doms);
                             self.contrastTables.push(thDom.contrast)
-                        }
+                        // }
                         break
                     }                    
                     

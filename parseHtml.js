@@ -18,10 +18,10 @@
       const bool = checkNode(node);
       //处理元素隐藏
       if (bool) {
-        // tempStyle = {};
         tempMessage = {};
         msgTree = '';
         floatType = false
+        // console.log(node, node.childNodes);
           const children = node.childNodes;    
           if (children && children.length) {
               Array.from(children).forEach((child, index) => {
@@ -81,17 +81,6 @@
                             ...getTempMsg(node)
                         };
                       const { fontWeight, color, fontSize, font, textAlign } = getStyleAndAttrs(child);
-                        // const maxNode = document.getElementsByTagName('body')
-                        // const style = getComputedStyle(node, null);
-                        // const width = Number(style.width.split('px')[0]);
-                        // const maxWidth = Number(getComputedStyle(maxNode[0], null).width.split('px')[0])
-                        // if(width > maxWidth-10) {
-                        //     const { colspan, rowspan } = node.attributes;
-                        //     tempStyle.height = node.offsetHeight;
-                        //     tempStyle.width = node.offsetWidth;
-                        //     tempStyle.colspan = colspan && colspan.nodeValue;
-                        //     tempStyle.rowspan = rowspan && rowspan.nodeValue;
-                        // } 
                       tempStyle = {
                           ...tempStyle,
                           fontWeight,
@@ -178,13 +167,22 @@
         if(NODE.nodeType === 3) {
             tempStyle.height = NODE.parentNode.offsetHeight;
             tempStyle.width = NODE.parentNode.offsetWidth;
-            // console.log(NODE.parentNode, NODE.parentNode.childNodes);
             if(NODE.parentNode.childNodes.length === 1) {
                 traversChild(NODE.parentNode)
+            } else {
+                if(NODE.nodeValue !== '\n') {
+                    traversChild(NODE.parentNode)
+                }
             }
         } else {
-            tempStyle.height = NODE.offsetHeight;
-            tempStyle.width = NODE.offsetWidth;
+            // console.log(NODE);
+            if(NODE.nodeName === 'TD' || NODE.nodeName === 'TH') {
+                tempStyle.height = NODE.offsetHeight + 1;
+                tempStyle.width = NODE.offsetWidth + 1;
+            } else {
+                tempStyle.height = NODE.offsetHeight;
+                tempStyle.width = NODE.offsetWidth;
+            }
             // console.log(NODE.parentNode, NODE.parentNode.childNodes);
             traversChild(NODE)
         }
@@ -628,18 +626,22 @@ const checkNowNode = (node)=> {
   //判断节点是否重复
   const diffDom=(dom, allDom)=> {
     let diff = false
-    allDom.forEach((cnt)=> {
-    //   if(cnt.node === dom.node && cnt.place === dom.place) {
-    //     diff = false
-    //   } else {
-    //     diff = true
-    //   }
-      if(cnt.place === dom.place || cnt.node === dom.node) {
-        diff = false
-      } else {
+    if(allDom.length === 0) {
         diff = true
-      }
-    })
+    } else {
+        allDom.forEach((cnt)=> {
+        //   if(cnt.node === dom.node && cnt.place === dom.place) {
+        //     diff = false
+        //   } else {
+        //     diff = true
+        //   }
+            if(cnt.place === dom.place || cnt.node === dom.node) {
+            diff = false
+            } else {
+            diff = true
+            }
+        })
+    }
     return diff
   }
 class DomTree {
@@ -712,7 +714,6 @@ class ForDom extends DomTree {
                 child.parentNode.nodeName === 'COLGROUP'
             ) return
             const prevNode = checkNodeWidth(child.parentNode)
-            // console.log(child, child.parentNode);
             if(!prevNode || prevNode.nodeName === 'COLGROUP') return
             const prevNodePlace =  prevNode.getBoundingClientRect().top
             const prev = {

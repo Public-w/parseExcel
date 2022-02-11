@@ -341,11 +341,11 @@ const traversDom = (NODES) => {
                     floatType: floatType
                 });
                 contrast.push({
-                    value: switchDoms.length === 1 ? switchDoms[0].value : switchDoms,
-                    type: tempDoms.length === 1 ? (switchNodeType(tempDoms[0])) || 'TEXT' : 'MORE',
-                    xpath: tempDoms[0] && tempDoms[0].xpath,
-                    visibility: true,
-                    title: switchDoms[0].title,
+                    // value: switchDoms.length === 1 ? switchDoms[0].value : switchDoms,
+                    // type: tempDoms.length === 1 ? (switchNodeType(tempDoms[0])) || 'TEXT' : 'MORE',
+                    // xpath: tempDoms[0] && tempDoms[0].xpath,
+                    // visibility: true,
+                    // title: switchDoms[0].title,
                     msgTree: msgTree,
                 })
             }

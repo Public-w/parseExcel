@@ -21,7 +21,7 @@
         tempMessage = {};
         msgTree = '';
         floatType = false
-        // console.log(node, node.childNodes);
+        console.log(node, node.childNodes);
           const children = node.childNodes;    
           if (children && children.length) {
               Array.from(children).forEach((child, index) => {
@@ -170,12 +170,12 @@
             if(NODE.parentNode.childNodes.length === 1) {
                 traversChild(NODE.parentNode)
             } else {
-                if(NODE.nodeValue !== '\n') {
+                const errorNode = NODE.nodeValue.match(/^\s*$/)
+                if(!errorNode) {
                     traversChild(NODE.parentNode)
                 }
             }
         } else {
-            // console.log(NODE);
             if(NODE.nodeName === 'TD' || NODE.nodeName === 'TH') {
                 tempStyle.height = NODE.offsetHeight + 1;
                 tempStyle.width = NODE.offsetWidth + 1;
@@ -183,11 +183,9 @@
                 tempStyle.height = NODE.offsetHeight;
                 tempStyle.width = NODE.offsetWidth;
             }
-            // console.log(NODE.parentNode, NODE.parentNode.childNodes);
             traversChild(NODE)
         }
       }
-    //   console.log(tempStyle, tempDoms, NODE, NODE.parentNode)
       if (tempText) {
           tempDoms.push(tempText);
       }
@@ -553,8 +551,8 @@ const maxNodeLength = (node)=> {
     }
 }
 //判断当前dom节点子节点是否含有最长元素
-const checkNowNode = (node)=> {
-    const maxNode = maxNodeLength(node)
+const checkNowNode = (node, width)=> {
+    // const maxNode = maxNodeLength(node)
     const childNodes = node.childNodes
     const allWidth = Array.from(childNodes).map((child)=> {
         if(child.nodeType === 1) {
@@ -563,7 +561,8 @@ const checkNowNode = (node)=> {
             return childWidth
         }
     })
-    return allWidth.filter((width)=>width).some((value)=> maxNode-10 <=value)
+    // console.log(allWidth, maxNode)
+    return allWidth.filter((width)=>width).some((value)=> width-10 <=value)
 }
 
   //判断元素是否是最外层
@@ -577,10 +576,11 @@ const checkNowNode = (node)=> {
     const width = Number(style.width.split('px')[0]);
     const height = Number(style.height.split('px')[0]);
     const maxWidth = Number(getComputedStyle(bodyNode[0], null).width.split('px')[0])
+    // console.log(maxWidth, maxNode, width, node, height)
     if(maxWidth-5 > maxNode) {
         if(maxNode-160 < width && height<200) {
             if(node.nodeName !== 'BODY') {
-              if(!checkNowNode(node)) {
+              if(!checkNowNode(node, width)) {
                 // console.log(node, node.childNodes);
                 return node
               }
@@ -591,13 +591,14 @@ const checkNowNode = (node)=> {
             }
         }
     } else {
-        if(maxNode-20 < width && height<200) {
+        if(maxNode-160 < width && height<200) {
             if(node.nodeName !== 'BODY') {
-                if(!checkNowNode(node)) {
+                if(!checkNowNode(node, width)) {
+                    // console.log(node, node.childNodes, width);
                     return node
                 }
             }
-          } else {
+        } else {
             if (node.nodeName !== 'BODY' && node.parentNode) {
               return checkNodeWidth(node.parentNode);
             }
@@ -630,16 +631,16 @@ const checkNowNode = (node)=> {
         diff = true
     } else {
         allDom.forEach((cnt)=> {
-        //   if(cnt.node === dom.node && cnt.place === dom.place) {
-        //     diff = false
-        //   } else {
-        //     diff = true
-        //   }
-            if(cnt.place === dom.place || cnt.node === dom.node) {
+          if(cnt.node === dom.node && cnt.place === dom.place) {
             diff = false
-            } else {
+          } else {
             diff = true
-            }
+          }
+            // if(cnt.place === dom.place || cnt.node === dom.node) {
+            // diff = false
+            // } else {
+            // diff = true
+            // }
         })
     }
     return diff
@@ -721,7 +722,6 @@ class ForDom extends DomTree {
                 place: prevNodePlace
             }
             if(diffDom(prev, this.parents)) {
-                // console.log(prev, prevNode, prevNode.childNodes);
                 const doms = traversDom(prevNode.childNodes, prevNode)
                 this.data.push(doms.doms)
                     const filterContrast = doms.contrast.map((item)=> {

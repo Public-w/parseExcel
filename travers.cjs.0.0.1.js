@@ -207,6 +207,7 @@ const traversDom = (NODES) => {
                         return;
                     }
                     if (['INPUT', 'SELECT', 'TEXTAREA',].includes(nodeName)) {
+                        // console.log(child, child.parentNode.childNodes)
                         if (tempText) {
                             tempDoms.push(tempText);
                             tempText = '';
@@ -293,7 +294,6 @@ const traversDom = (NODES) => {
         tempMessage = {};
         msgTree = '';
         floatType = false
-        // console.log(NODE)
         // if(getComputedStyle(NODE, null).display === 'none') return
         traversChild(NODE);
         if (tempText) {

@@ -573,8 +573,8 @@ const checkNowNode = (node, width)=> {
             return childWidth
         }
     })
-    // console.log(allWidth, childNodes, width)
-    return allWidth.filter((width)=>width).some((value)=> width-40 <=value)
+    // console.log(allWidth, maxNode)
+    return allWidth.filter((width)=>width).some((value)=> width-10 <=value)
 }
 
   //判断元素是否是最外层
@@ -733,9 +733,7 @@ class ForDom extends DomTree {
                 node: prevNode,
                 place: prevNodePlace
             }
-            // console.log(prevNode, prevNode.childNodes, prevNodePlace)
             if(diffDom(prev, this.parents)) {
-                // console.log(prevNode.childNodes)
                 const doms = traversDom(prevNode.childNodes, prevNode)
                 this.data.push(doms.doms)
                     const filterContrast = doms.contrast.map((item)=> {

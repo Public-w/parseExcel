@@ -20,7 +20,8 @@
     "puppeteer": "^13.3.1",
     "read-excel-file": "^5.2.21",
     "simple-excel-to-json": "^2.3.0",
-    "xlsx-populate": "^1.21.0"
+    "xlsx-populate": "^1.21.0",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "jest": "^27.5.1",

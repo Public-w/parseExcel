@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxML xmlns="http://www.chinatax.gov.cn/dataspec/">
+    <zzsybsbSbbdxxVO>
+        <zzssyyybnsr_zb>
+            <sbbhead>
+                <nsrsbh>91370112MA3T31H301</nsrsbh>
+                <zjhm>370902197110073321</zjhm>
+                <djxh>10213701000000170764</djxh>
+                <nsrmc>山东品鲜食品有限公司</nsrmc>
+                <skssqq>2021-12-01</skssqq>
+                <skssqz>2021-12-31</skssqz>
+                <sbsxDm1>11</sbsxDm1>
+                <sbrq1>2022-01-13</sbrq1>
+            </sbbhead>
+            <zbGrid>
+                <zbGridlbVO>
+                    <ewblxh>1</ewblxh>
+                    <lmc>本月数</lmc>
+                    <asysljsxse>123853.22</asysljsxse>
+                    <yshwxse>123853.22</yshwxse>
+                    <yslwxse>0.00</yslwxse>
+                    <syslNsjctzxse>0.00</syslNsjctzxse>
+                    <ajybfjsxse>0.00</ajybfjsxse>
+                    <jybfNsjctzxse>0.00</jybfNsjctzxse>
+                    <mdtbfckxse>0.00</mdtbfckxse>
+                    <msxse>0.00</msxse>
+                    <mshwxse>0.00</mshwxse>
+                    <mslwxse>0.00</mslwxse>
+                    <xxse>11146.78</xxse>
+                    <jxse>0.00</jxse>
+                    <sqldse>46370.79</sqldse>
+                    <jxsezc>0.00</jxsezc>
+                    <mdtytse>0.00</mdtytse>
+                    <syslNsjcybjse>0.00</syslNsjcybjse>
+                    <ydksehj>46370.79</ydksehj>
+                    <sjdkse>11146.78</sjdkse>
+                    <ynse>0.00</ynse>
+                    <qmldse>35224.01</qmldse>
+                    <jybfYnse>0.00</jybfYnse>
+                    <jybfNsjcybjse>0.00</jybfNsjcybjse>
+                    <ynsejze>0.00</ynsejze>
+                    <ynsehj>0.00</ynsehj>
+                    <qcwjse>0.00</qcwjse>
+                    <ssckkjzyjkstse>0.00</ssckkjzyjkstse>
+                    <bqyjse>0.00</bqyjse>
+                    <fcyjse>0.00</fcyjse>
+                    <ckkjzyjksyjse>0.00</ckkjzyjksyjse>
+                    <bqjnsqynse>0.00</bqjnsqynse>
+                    <bqjnqjse>0.00</bqjnqjse>
+                    <qmwjse>0.00</qmwjse>
+                    <qmwjseQjse>0.00</qmwjseQjse>
+                    <bqybtse>0.00</bqybtse>
+                    <jzjtsjtse />
+                    <qcwjcbse>0.00</qcwjcbse>
+                    <bqrkcbse>0.00</bqrkcbse>
+                    <qmwjcbse>0.00</qmwjcbse>
+                    <sqr />
+                    <smrxm />
+                    <slr />
+                    <bqybtsecjs>0.00</bqybtsecjs>
+                    <bqybtsejyfj>0.00</bqybtsejyfj>
+                    <bqybtsedfjyfj>0.00</bqybtsedfjyfj>
+                </zbGridlbVO>
+                <zbGridlbVO>
+                    <ewblxh>2</ewblxh>
+                    <lmc>本年累计</lmc>
+                    <asysljsxse>2444128.47</asysljsxse>
+                    <yshwxse>2444128.47</yshwxse>
+                    <yslwxse>0.00</yslwxse>
+                    <syslNsjctzxse>0.00</syslNsjctzxse>
+                    <ajybfjsxse>0.00</ajybfjsxse>
+                    <jybfNsjctzxse>0.00</jybfNsjctzxse>
+                    <mdtbfckxse>0.00</mdtbfckxse>
+                    <msxse>0.00</msxse>
+                    <mshwxse>0.00</mshwxse>
+                    <mslwxse>0.00</mslwxse>
+                    <xxse>219971.52</xxse>
+                    <jxse>246005.16</jxse>
+                    <sqldse>0.00</sqldse>
+                    <jxsezc>0.00</jxsezc>
+                    <mdtytse>0.00</mdtytse>
+                    <syslNsjcybjse>0.00</syslNsjcybjse>
+                    <ydksehj />
+                    <sjdkse>0.00</sjdkse>
+                    <ynse>0.00</ynse>
+                    <qmldse>0.00</qmldse>
+                    <jybfYnse>0.00</jybfYnse>
+                    <jybfNsjcybjse>0.00</jybfNsjcybjse>
+                    <ynsejze>0.00</ynsejze>
+                    <ynsehj>0.00</ynsehj>
+                    <qcwjse>0.00</qcwjse>
+                    <ssckkjzyjkstse>0.00</ssckkjzyjkstse>
+                    <bqyjse>0.00</bqyjse>
+                    <fcyjse />
+                    <ckkjzyjksyjse />
+                    <bqjnsqynse>0.00</bqjnsqynse>
+                    <bqjnqjse>0.00</bqjnqjse>
+                    <qmwjse>0.00</qmwjse>
+                    <qmwjseQjse />
+                    <bqybtse />
+                    <jzjtsjtse />
+                    <qcwjcbse>0.00</qcwjcbse>
+                    <bqrkcbse>0.00</bqrkcbse>
+                    <qmwjcbse>0.00</qmwjcbse>
+                    <sqr />
+                    <smrxm />
+                    <slr />
+                    <bqybtsecjs>0.0</bqybtsecjs>
+                    <bqybtsejyfj>0.0</bqybtsejyfj>
+                    <bqybtsedfjyfj>0.0</bqybtsedfjyfj>
+                </zbGridlbVO>
+                <zbGridlbVO>
+                    <ewblxh>3</ewblxh>
+                    <lmc>本月数</lmc>
+                    <asysljsxse>0.00</asysljsxse>
+                    <yshwxse>0.00</yshwxse>
+                    <yslwxse>0.00</yslwxse>
+                    <syslNsjctzxse>0.00</syslNsjctzxse>
+                    <ajybfjsxse>0.00</ajybfjsxse>
+                    <jybfNsjctzxse>0.00</jybfNsjctzxse>
+                    <mdtbfckxse />
+                    <msxse />
+                    <mshwxse />
+                    <mslwxse />
+                    <xxse>0.00</xxse>
+                    <jxse>0.00</jxse>
+                    <sqldse>0.00</sqldse>
+                    <jxsezc>0.00</jxsezc>
+                    <mdtytse />
+                    <syslNsjcybjse />
+                    <ydksehj>0.00</ydksehj>
+                    <sjdkse>0.00</sjdkse>
+                    <ynse>0.00</ynse>
+                    <qmldse>0.00</qmldse>
+                    <jybfYnse>0.00</jybfYnse>
+                    <jybfNsjcybjse />
+                    <ynsejze>0.00</ynsejze>
+                    <ynsehj>0.00</ynsehj>
+                    <qcwjse>0.00</qcwjse>
+                    <ssckkjzyjkstse />
+                    <bqyjse>0.00</bqyjse>
+                    <fcyjse>0.00</fcyjse>
+                    <ckkjzyjksyjse />
+                    <bqjnsqynse>0.00</bqjnsqynse>
+                    <bqjnqjse>0.00</bqjnqjse>
+                    <qmwjse>0.00</qmwjse>
+                    <qmwjseQjse>0.00</qmwjseQjse>
+                    <bqybtse>0.00</bqybtse>
+                    <jzjtsjtse>0.00</jzjtsjtse>
+                    <qcwjcbse />
+                    <bqrkcbse />
+                    <qmwjcbse />
+                    <sqr />
+                    <smrxm />
+                    <slr />
+                    <bqybtsecjs />
+                    <bqybtsejyfj />
+                    <bqybtsedfjyfj />
+                </zbGridlbVO>
+                <zbGridlbVO>
+                    <ewblxh>4</ewblxh>
+                    <lmc>本年累计</lmc>
+                    <asysljsxse>0.00</asysljsxse>
+                    <yshwxse>0.00</yshwxse>
+                    <yslwxse>0.00</yslwxse>
+                    <syslNsjctzxse>0.00</syslNsjctzxse>
+                    <ajybfjsxse>0.00</ajybfjsxse>
+                    <jybfNsjctzxse>0.00</jybfNsjctzxse>
+                    <mdtbfckxse />
+                    <msxse />
+                    <mshwxse />
+                    <mslwxse />
+                    <xxse>0.00</xxse>
+                    <jxse>0.00</jxse>
+                    <sqldse />
+                    <jxsezc>0.00</jxsezc>
+                    <mdtytse />
+                    <syslNsjcybjse />
+                    <ydksehj />
+                    <sjdkse>0.00</sjdkse>
+                    <ynse>0.00</ynse>
+                    <qmldse />
+                    <jybfYnse>0.00</jybfYnse>
+                    <jybfNsjcybjse />
+                    <ynsejze>0.00</ynsejze>
+                    <ynsehj>0.00</ynsehj>
+                    <qcwjse>0.00</qcwjse>
+                    <ssckkjzyjkstse />
+                    <bqyjse>0.00</bqyjse>
+                    <fcyjse />
+                    <ckkjzyjksyjse />
+                    <bqjnsqynse>0.00</bqjnsqynse>
+                    <bqjnqjse>0.00</bqjnqjse>
+                    <qmwjse>0.00</qmwjse>
+                    <qmwjseQjse />
+                    <bqybtse />
+                    <jzjtsjtse>0.00</jzjtsjtse>
+                    <qcwjcbse />
+                    <bqrkcbse />
+                    <qmwjcbse />
+                    <sqr />
+                    <smrxm />
+                    <slr />
+                    <bqybtsecjs />
+                    <bqybtsejyfj />
+                    <bqybtsedfjyfj />
+                </zbGridlbVO>
+            </zbGrid>
+            <slxxForm>
+                <sfdlsb />
+                <dlrmc />
+                <dlrdz />
+                <dlrsfzjzlDm1 />
+                <dlrsfzjhm1 />
+                <sqr />
+                <smr />
+                <slrq />
+                <slr />
+                <slswjg />
+            </slxxForm>
+        </zzssyyybnsr_zb>
+        <zzssyyybnsr01_bqxsqkmxb>
+            <sbbhead>
+                <nsrsbh>91370112MA3T31H301</nsrsbh>
+                <nsrmc>山东品鲜食品有限公司</nsrmc>
+                <skssqq>2021-12-01</skssqq>
+                <skssqz>2021-12-31</skssqz>
+            </sbbhead>
+            <bqxsqkmxbGrid>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>1</ewbhxh>
+                    <hmc>13%税率的货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse>0</nsjctzdxse>
+                    <nsjctzXxynse>0</nsjctzXxynse>
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>2</ewbhxh>
+                    <hmc>13%税率的服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse>0</nsjctzdxse>
+                    <nsjctzXxynse>0</nsjctzXxynse>
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse>0.00</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>4</ewbhxh>
+                    <hmc>9%税率的服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse>0</nsjctzdxse>
+                    <nsjctzXxynse>0</nsjctzXxynse>
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse>0.00</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>5</ewbhxh>
+                    <hmc>6%税率</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse>0</nsjctzdxse>
+                    <nsjctzXxynse>0</nsjctzXxynse>
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse>0.00</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>6</ewbhxh>
+                    <hmc>即征即退货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse />
+                    <kjskzzszyfpXxynse />
+                    <kjqtfpXse />
+                    <kjqtfpXxynse />
+                    <wkjfpXse />
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>7</ewbhxh>
+                    <hmc>即征即退服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse />
+                    <kjskzzszyfpXxynse />
+                    <kjqtfpXse />
+                    <kjqtfpXxynse />
+                    <wkjfpXse />
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse>0.00</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>8</ewbhxh>
+                    <hmc>6%征收率</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>9</ewbhxh>
+                    <hmc>5%征收率的货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>10</ewbhxh>
+                    <hmc>4%征收率</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>11</ewbhxh>
+                    <hmc>3%征收率的货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>12</ewbhxh>
+                    <hmc>3%征收率的服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse>0.00</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>13</ewbhxh>
+                    <hmc>预征率%</hmc>
+                    <kjskzzszyfpXse>0</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0</kjqtfpXse>
+                    <kjqtfpXxynse>0</kjqtfpXxynse>
+                    <wkjfpXse>0</wkjfpXse>
+                    <wkjfpXxynse>0</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0</jshj>
+                    <ysfwkcxmbqsjkcje>0</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0</kchHsmsxse>
+                    <kchXxynse>0</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>14</ewbhxh>
+                    <hmc>即征即退货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse />
+                    <kjskzzszyfpXxynse />
+                    <kjqtfpXse />
+                    <kjqtfpXxynse />
+                    <wkjfpXse />
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>15</ewbhxh>
+                    <hmc>即征即退服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse />
+                    <kjskzzszyfpXxynse />
+                    <kjqtfpXse />
+                    <kjqtfpXxynse />
+                    <wkjfpXse />
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse>0.00</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>16</ewbhxh>
+                    <hmc>货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse />
+                    <kjskzzszyfpXxynse />
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse />
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse />
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>17</ewbhxh>
+                    <hmc>服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse />
+                    <kjskzzszyfpXxynse />
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse />
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse />
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>18</ewbhxh>
+                    <hmc>货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse />
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse />
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>19</ewbhxh>
+                    <hmc>服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse />
+                    <kjskzzszyfpXxynse />
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse />
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse />
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse />
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>20</ewbhxh>
+                    <hmc>预征率%</hmc>
+                    <kjskzzszyfpXse>0</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0</kjqtfpXse>
+                    <kjqtfpXxynse>0</kjqtfpXxynse>
+                    <wkjfpXse>0</wkjfpXse>
+                    <wkjfpXxynse>0</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0</jshj>
+                    <ysfwkcxmbqsjkcje>0</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0</kchHsmsxse>
+                    <kchXxynse>0</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>21</ewbhxh>
+                    <hmc>预征率%</hmc>
+                    <kjskzzszyfpXse>0</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0</kjqtfpXse>
+                    <kjqtfpXxynse>0</kjqtfpXxynse>
+                    <wkjfpXse>0</wkjfpXse>
+                    <wkjfpXxynse>0</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0</jshj>
+                    <ysfwkcxmbqsjkcje>0</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0</kchHsmsxse>
+                    <kchXxynse>0</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>22</ewbhxh>
+                    <hmc>5%征收率的服务、不动产和无形资产</hmc>
+                    <kjskzzszyfpXse>0.00</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>0.00</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse />
+                    <nsjctzXxynse />
+                    <xse>0.00</xse>
+                    <hjXxynse>0.00</hjXxynse>
+                    <jshj>0.00</jshj>
+                    <ysfwkcxmbqsjkcje>0.00</ysfwkcxmbqsjkcje>
+                    <kchHsmsxse>0.00</kchHsmsxse>
+                    <kchXxynse>0.00</kchXxynse>
+                </bqxsqkmxbGridlbVO>
+                <bqxsqkmxbGridlbVO>
+                    <ewbhxh>23</ewbhxh>
+                    <hmc>9%税率的货物及加工修理修配劳务</hmc>
+                    <kjskzzszyfpXse>123853.22</kjskzzszyfpXse>
+                    <kjskzzszyfpXxynse>11146.78</kjskzzszyfpXxynse>
+                    <kjqtfpXse>0.00</kjqtfpXse>
+                    <kjqtfpXxynse>0.00</kjqtfpXxynse>
+                    <wkjfpXse>0.00</wkjfpXse>
+                    <wkjfpXxynse>0.00</wkjfpXxynse>
+                    <nsjctzdxse>0</nsjctzdxse>
+                    <nsjctzXxynse>0</nsjctzXxynse>
+                    <xse>123853.22</xse>
+                    <hjXxynse>0</hjXxynse>
+                    <jshj />
+                    <ysfwkcxmbqsjkcje />
+                    <kchHsmsxse />
+                    <kchXxynse />
+                </bqxsqkmxbGridlbVO>
+            </bqxsqkmxbGrid>
+        </zzssyyybnsr01_bqxsqkmxb>
+        <zzssyyybnsr02_bqjxsemxb>
+            <sbbhead>
+                <nsrsbh>91370112MA3T31H301</nsrsbh>
+                <nsrmc>山东品鲜食品有限公司</nsrmc>
+                <skssqq>2021-12-01</skssqq>
+                <skssqz>2021-12-31</skssqz>
+            </sbbhead>
+            <bqjxsemxbGrid>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>1</ewbhxh>
+                    <hmc>(一)认证相符的税控增值税专用发票</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>2</ewbhxh>
+                    <hmc>其中：本期认证相符且本期申报抵扣</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>3</ewbhxh>
+                    <hmc>前期认证相符且本期申报抵扣</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>4</ewbhxh>
+                    <hmc>(二)其他扣税凭证</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>5</ewbhxh>
+                    <hmc>其中：海关进口增值税专用缴款书</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>6</ewbhxh>
+                    <hmc>农产品收购发票或者销售发票</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>7</ewbhxh>
+                    <hmc>代扣代缴税收缴款凭证</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>8</ewbhxh>
+                    <hmc>其他</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>9</ewbhxh>
+                    <hmc>（三）本期用于购建不动产的扣税凭证</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>10</ewbhxh>
+                    <hmc>（四）本期用于抵扣的旅客运输服务扣税凭证</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>11</ewbhxh>
+                    <hmc>（五）外贸企业进项税额抵扣证明</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>12</ewbhxh>
+                    <hmc>当期申报抵扣进项税额合计</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>13</ewbhxh>
+                    <hmc>本期进项税转出额</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>14</ewbhxh>
+                    <hmc>其中：免税项目用</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>15</ewbhxh>
+                    <hmc>集体福利、个人消费</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>16</ewbhxh>
+                    <hmc>非正常损失</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>17</ewbhxh>
+                    <hmc>简易计税方法征税项目用</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>18</ewbhxh>
+                    <hmc>免抵退税办法不得抵扣的进项税额</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>19</ewbhxh>
+                    <hmc>纳税检查调减进项税额</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>20</ewbhxh>
+                    <hmc>红字专用发票通知单注明的进项税额</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>21</ewbhxh>
+                    <hmc>上期留抵税额抵减欠税</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>22</ewbhxh>
+                    <hmc>上期留抵税额退税</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>23</ewbhxh>
+                    <hmc>其他应作进项税额转出的情形</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>24</ewbhxh>
+                    <hmc>(一)认证相符的增值税专用发票</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se />
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>25</ewbhxh>
+                    <hmc>期初已认证相符但未申报抵扣</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>26</ewbhxh>
+                    <hmc>本期认证相符且本期未申报抵扣</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>27</ewbhxh>
+                    <hmc>期末已认证相符但未申报抵扣</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>28</ewbhxh>
+                    <hmc>其中：按照税法规定不允许抵扣</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>29</ewbhxh>
+                    <hmc>(二)其他扣税凭证</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>30</ewbhxh>
+                    <hmc>其中：海关进口增值税专用缴款书</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>31</ewbhxh>
+                    <hmc>农产品收购发票或者销售发票</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>32</ewbhxh>
+                    <hmc>代扣代缴税收缴款凭证</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>33</ewbhxh>
+                    <hmc>其他</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>34</ewbhxh>
+                    <hmc>空</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0</je>
+                    <se>0</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>35</ewbhxh>
+                    <hmc>本期认证相符的税控增值税专用发票</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je>0.00</je>
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>36</ewbhxh>
+                    <hmc>代扣代缴税额</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se />
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>37</ewbhxh>
+                    <hmc>加计扣除农产品进项税额</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs />
+                    <je />
+                    <se>0.00</se>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>38</ewbhxh>
+                    <hmc>异常凭证转出进项税额</hmc>
+                    <xmmc />
+                    <lc />
+                    <fs>0</fs>
+                    <je />
+                    <se>0</se>
+                </bqjxsemxbGridlbVO>
+            </bqjxsemxbGrid>
+        </zzssyyybnsr02_bqjxsemxb>
+        <zzssyyybnsr03_ysfwkcxmmx />
+        <zzssyyybnsr04_bqjxsemxb>
+            <sbbhead>
+                <nsrsbh>91370112MA3T31H301</nsrsbh>
+                <nsrmc>山东品鲜食品有限公司</nsrmc>
+                <skssqq>2021-12-01</skssqq>
+                <skssqz>2021-12-31</skssqz>
+            </sbbhead>
+            <bqjxsemxbGrid>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>1</ewbhxh>
+                    <hmc>增值税税控系统专用设备费及技术维护费</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse>0.00</bqydjse>
+                    <bqsjdjse>0.00</bqsjdjse>
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce />
+                    <bqkjjdkjxse />
+                    <bqsjjjdkjxse />
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>2</ewbhxh>
+                    <hmc>分支机构预征缴纳税款</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse>0.00</bqydjse>
+                    <bqsjdjse>0.00</bqsjdjse>
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce />
+                    <bqkjjdkjxse />
+                    <bqsjjjdkjxse />
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>3</ewbhxh>
+                    <hmc>建筑服务预征缴纳税款</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse>0.00</bqydjse>
+                    <bqsjdjse>0.00</bqsjdjse>
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce />
+                    <bqkjjdkjxse />
+                    <bqsjjjdkjxse />
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>4</ewbhxh>
+                    <hmc>销售不动产预征缴纳税款</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse>0.00</bqydjse>
+                    <bqsjdjse>0.00</bqsjdjse>
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce />
+                    <bqkjjdkjxse />
+                    <bqsjjjdkjxse />
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>5</ewbhxh>
+                    <hmc>出租不动产预征缴纳税款</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse>0.00</bqydjse>
+                    <bqsjdjse>0.00</bqsjdjse>
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce />
+                    <bqkjjdkjxse />
+                    <bqsjjjdkjxse />
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>6</ewbhxh>
+                    <hmc>一般项目加计抵减额计算</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse />
+                    <bqsjdjse />
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce>0.00</bqzce>
+                    <bqkjjdkjxse>0.00</bqkjjdkjxse>
+                    <bqsjjjdkjxse>0.00</bqsjjjdkjxse>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>7</ewbhxh>
+                    <hmc>即征即退项目加计抵减额计算</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse />
+                    <bqsjdjse />
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce>0.00</bqzce>
+                    <bqkjjdkjxse>0.00</bqkjjdkjxse>
+                    <bqsjjjdkjxse>0.00</bqsjjjdkjxse>
+                </bqjxsemxbGridlbVO>
+                <bqjxsemxbGridlbVO>
+                    <ewbhxh>8</ewbhxh>
+                    <hmc>合计</hmc>
+                    <qcye>0.00</qcye>
+                    <bqydjse />
+                    <bqsjdjse />
+                    <bqfse>0.00</bqfse>
+                    <qmye>0.00</qmye>
+                    <bqzce>0.00</bqzce>
+                    <bqkjjdkjxse>0.00</bqkjjdkjxse>
+                    <bqsjjjdkjxse>0.00</bqsjjjdkjxse>
+                </bqjxsemxbGridlbVO>
+            </bqjxsemxbGrid>
+        </zzssyyybnsr04_bqjxsemxb>
+        <zzsjmssbmxb>
+            <zzsjmssbmxbjsxmGrid>
+                <zzsjmssbmxbjsxmGridlbVO>
+                    <ewbhxh>1</ewbhxh>
+                    <hmc>合计</hmc>
+                    <swsxDm />
+                    <qcye>0.00</qcye>
+                    <bqfse>0.00</bqfse>
+                    <bqydjse>0.00</bqydjse>
+                    <bqsjdjse>0.00</bqsjdjse>
+                    <qmye>0.00</qmye>
+                </zzsjmssbmxbjsxmGridlbVO>
+            </zzsjmssbmxbjsxmGrid>
+            <zzsjmssbmxbmsxmGrid>
+                <zzsjmssbmxbmsxmGridlbVO>
+                    <ewbhxh>1</ewbhxh>
+                    <hmc>合计</hmc>
+                    <swsxDm />
+                    <mzzzsxmxse>0.00</mzzzsxmxse>
+                    <bqsjkcje>0.00</bqsjkcje>
+                    <kchmsxse>0.00</kchmsxse>
+                    <msxsedyjxse />
+                    <mse />
+                </zzsjmssbmxbmsxmGridlbVO>
+                <zzsjmssbmxbmsxmGridlbVO>
+                    <ewbhxh>2</ewbhxh>
+                    <hmc>出口免税</hmc>
+                    <swsxDm />
+                    <mzzzsxmxse>0.00</mzzzsxmxse>
+                    <bqsjkcje />
+                    <kchmsxse />
+                    <msxsedyjxse />
+                    <mse />
+                </zzsjmssbmxbmsxmGridlbVO>
+                <zzsjmssbmxbmsxmGridlbVO>
+                    <ewbhxh>3</ewbhxh>
+                    <hmc>其中：跨境服务</hmc>
+                    <swsxDm />
+                    <mzzzsxmxse>0.00</mzzzsxmxse>
+                    <bqsjkcje />
+                    <kchmsxse />
+                    <msxsedyjxse />
+                    <mse />
+                </zzsjmssbmxbmsxmGridlbVO>
+            </zzsjmssbmxbmsxmGrid>
+        </zzsjmssbmxb>
+        <zzsfjssb>
+            <fjsxxGrid>
+                <fjsxxGridlb>
+                    <ewbhxh>1</ewbhxh>
+                    <sybh />
+                    <rdpzuuid />
+                    <zsxmDm>10109</zsxmDm>
+                    <zspmDm>101090101</zspmDm>
+                    <jsyj>0.00</jsyj>
+                    <sl1>0.07</sl1>
+                    <ynse>0.00</ynse>
+                    <ssjmxzDm />
+                    <jmse>0.00</jmse>
+                    <yjse1>0.00</yjse1>
+                    <ybtse>0.00</ybtse>
+                    <rdyxqq />
+                    <rdyxqz />
+                    <swsxDm />
+                    <cjrhjmxzDm></cjrhjmxzDm>
+                    <bqcjrhxqydmje>0.00</bqcjrhxqydmje>
+                    <zzsxejmje>0.00</zzsxejmje>
+                    <zzsldtse>0.00</zzsldtse>
+                    <zzsmdse>0.00</zzsmdse>
+                </fjsxxGridlb>
+                <fjsxxGridlb>
+                    <ewbhxh>2</ewbhxh>
+                    <sybh />
+                    <rdpzuuid />
+                    <zsxmDm>30203</zsxmDm>
+                    <zspmDm>302030100</zspmDm>
+                    <jsyj>0.00</jsyj>
+                    <sl1>0.03</sl1>
+                    <ynse>0.00</ynse>
+                    <ssjmxzDm />
+                    <jmse>0.00</jmse>
+                    <yjse1>0.00</yjse1>
+                    <ybtse>0.00</ybtse>
+                    <rdyxqq />
+                    <rdyxqz />
+                    <swsxDm />
+                    <cjrhjmxzDm></cjrhjmxzDm>
+                    <bqcjrhxqydmje>0.00</bqcjrhxqydmje>
+                    <zzsxejmje>0.00</zzsxejmje>
+                    <zzsldtse>0.00</zzsldtse>
+                    <zzsmdse>0.00</zzsmdse>
+                </fjsxxGridlb>
+                <fjsxxGridlb>
+                    <ewbhxh>3</ewbhxh>
+                    <sybh />
+                    <rdpzuuid />
+                    <zsxmDm>30216</zsxmDm>
+                    <zspmDm>302160100</zspmDm>
+                    <jsyj>0.00</jsyj>
+                    <sl1>0.02</sl1>
+                    <ynse>0.00</ynse>
+                    <ssjmxzDm />
+                    <jmse>0.00</jmse>
+                    <yjse1>0.00</yjse1>
+                    <ybtse>0.00</ybtse>
+                    <rdyxqq />
+                    <rdyxqz />
+                    <swsxDm />
+                    <cjrhjmxzDm></cjrhjmxzDm>
+                    <bqcjrhxqydmje>0.00</bqcjrhxqydmje>
+                    <zzsxejmje>0.00</zzsxejmje>
+                    <zzsldtse>0.00</zzsldtse>
+                    <zzsmdse>0.00</zzsmdse>
+                </fjsxxGridlb>
+            </fjsxxGrid>
+            <fjsxxForm>
+                <bqsfsycjyhxqyjzzc>N</bqsfsycjyhxqyjzzc>
+                <dqxztze>0.00</dqxztze>
+                <sqldkdmje>0.00</sqldkdmje>
+                <jzxqkdmje>0.00</jzxqkdmje>
+                <dqxzldtse>0.00</dqxzldtse>
+                <sqjcldtse>0.00</sqjcldtse>
+                <jzxqldtse>0.00</jzxqldtse>
+                <bchssqq />
+                <bchssqz />
+                <jsyjxgxz />
+                <jsyjxgyy />
+            </fjsxxForm>
+            <hznsFjsffpbGrid />
+        </zzsfjssb>
+    </zzsybsbSbbdxxVO>
+</taxML>

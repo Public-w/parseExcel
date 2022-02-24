@@ -1,0 +1,280 @@
+{
+  "sbbhead": [
+    {
+      "nsrsbh": [
+        "91370112MA3T31H301"
+      ],
+      "nsrmc": [
+        "山东品鲜食品有限公司"
+      ],
+      "skssqq": [
+        "2021-12-01"
+      ],
+      "skssqz": [
+        "2021-12-31"
+      ]
+    }
+  ],
+  "bqjxsemxbGrid": [
+    {
+      "bqjxsemxbGridlbVO": [
+        {
+          "ewbhxh": [
+            "1"
+          ],
+          "hmc": [
+            "增值税税控系统专用设备费及技术维护费"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            "0.00"
+          ],
+          "bqsjdjse": [
+            "0.00"
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            ""
+          ],
+          "bqkjjdkjxse": [
+            ""
+          ],
+          "bqsjjjdkjxse": [
+            ""
+          ]
+        },
+        {
+          "ewbhxh": [
+            "2"
+          ],
+          "hmc": [
+            "分支机构预征缴纳税款"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            "0.00"
+          ],
+          "bqsjdjse": [
+            "0.00"
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            ""
+          ],
+          "bqkjjdkjxse": [
+            ""
+          ],
+          "bqsjjjdkjxse": [
+            ""
+          ]
+        },
+        {
+          "ewbhxh": [
+            "3"
+          ],
+          "hmc": [
+            "建筑服务预征缴纳税款"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            "0.00"
+          ],
+          "bqsjdjse": [
+            "0.00"
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            ""
+          ],
+          "bqkjjdkjxse": [
+            ""
+          ],
+          "bqsjjjdkjxse": [
+            ""
+          ]
+        },
+        {
+          "ewbhxh": [
+            "4"
+          ],
+          "hmc": [
+            "销售不动产预征缴纳税款"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            "0.00"
+          ],
+          "bqsjdjse": [
+            "0.00"
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            ""
+          ],
+          "bqkjjdkjxse": [
+            ""
+          ],
+          "bqsjjjdkjxse": [
+            ""
+          ]
+        },
+        {
+          "ewbhxh": [
+            "5"
+          ],
+          "hmc": [
+            "出租不动产预征缴纳税款"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            "0.00"
+          ],
+          "bqsjdjse": [
+            "0.00"
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            ""
+          ],
+          "bqkjjdkjxse": [
+            ""
+          ],
+          "bqsjjjdkjxse": [
+            ""
+          ]
+        },
+        {
+          "ewbhxh": [
+            "6"
+          ],
+          "hmc": [
+            "一般项目加计抵减额计算"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            ""
+          ],
+          "bqsjdjse": [
+            ""
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            "0.00"
+          ],
+          "bqkjjdkjxse": [
+            "0.00"
+          ],
+          "bqsjjjdkjxse": [
+            "0.00"
+          ]
+        },
+        {
+          "ewbhxh": [
+            "7"
+          ],
+          "hmc": [
+            "即征即退项目加计抵减额计算"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            ""
+          ],
+          "bqsjdjse": [
+            ""
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            "0.00"
+          ],
+          "bqkjjdkjxse": [
+            "0.00"
+          ],
+          "bqsjjjdkjxse": [
+            "0.00"
+          ]
+        },
+        {
+          "ewbhxh": [
+            "8"
+          ],
+          "hmc": [
+            "合计"
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqydjse": [
+            ""
+          ],
+          "bqsjdjse": [
+            ""
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ],
+          "bqzce": [
+            "0.00"
+          ],
+          "bqkjjdkjxse": [
+            "0.00"
+          ],
+          "bqsjjjdkjxse": [
+            "0.00"
+          ]
+        }
+      ]
+    }
+  ]
+}

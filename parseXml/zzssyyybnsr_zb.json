@@ -1,0 +1,630 @@
+{
+  "sbbhead": [
+    {
+      "nsrsbh": [
+        "91370112MA3T31H301"
+      ],
+      "zjhm": [
+        "370902197110073321"
+      ],
+      "djxh": [
+        "10213701000000170764"
+      ],
+      "nsrmc": [
+        "山东品鲜食品有限公司"
+      ],
+      "skssqq": [
+        "2021-12-01"
+      ],
+      "skssqz": [
+        "2021-12-31"
+      ],
+      "sbsxDm1": [
+        "11"
+      ],
+      "sbrq1": [
+        "2022-01-13"
+      ]
+    }
+  ],
+  "zbGrid": [
+    {
+      "zbGridlbVO": [
+        {
+          "ewblxh": [
+            "1"
+          ],
+          "lmc": [
+            "本月数"
+          ],
+          "asysljsxse": [
+            "123853.22"
+          ],
+          "yshwxse": [
+            "123853.22"
+          ],
+          "yslwxse": [
+            "0.00"
+          ],
+          "syslNsjctzxse": [
+            "0.00"
+          ],
+          "ajybfjsxse": [
+            "0.00"
+          ],
+          "jybfNsjctzxse": [
+            "0.00"
+          ],
+          "mdtbfckxse": [
+            "0.00"
+          ],
+          "msxse": [
+            "0.00"
+          ],
+          "mshwxse": [
+            "0.00"
+          ],
+          "mslwxse": [
+            "0.00"
+          ],
+          "xxse": [
+            "11146.78"
+          ],
+          "jxse": [
+            "0.00"
+          ],
+          "sqldse": [
+            "46370.79"
+          ],
+          "jxsezc": [
+            "0.00"
+          ],
+          "mdtytse": [
+            "0.00"
+          ],
+          "syslNsjcybjse": [
+            "0.00"
+          ],
+          "ydksehj": [
+            "46370.79"
+          ],
+          "sjdkse": [
+            "11146.78"
+          ],
+          "ynse": [
+            "0.00"
+          ],
+          "qmldse": [
+            "35224.01"
+          ],
+          "jybfYnse": [
+            "0.00"
+          ],
+          "jybfNsjcybjse": [
+            "0.00"
+          ],
+          "ynsejze": [
+            "0.00"
+          ],
+          "ynsehj": [
+            "0.00"
+          ],
+          "qcwjse": [
+            "0.00"
+          ],
+          "ssckkjzyjkstse": [
+            "0.00"
+          ],
+          "bqyjse": [
+            "0.00"
+          ],
+          "fcyjse": [
+            "0.00"
+          ],
+          "ckkjzyjksyjse": [
+            "0.00"
+          ],
+          "bqjnsqynse": [
+            "0.00"
+          ],
+          "bqjnqjse": [
+            "0.00"
+          ],
+          "qmwjse": [
+            "0.00"
+          ],
+          "qmwjseQjse": [
+            "0.00"
+          ],
+          "bqybtse": [
+            "0.00"
+          ],
+          "jzjtsjtse": [
+            ""
+          ],
+          "qcwjcbse": [
+            "0.00"
+          ],
+          "bqrkcbse": [
+            "0.00"
+          ],
+          "qmwjcbse": [
+            "0.00"
+          ],
+          "sqr": [
+            ""
+          ],
+          "smrxm": [
+            ""
+          ],
+          "slr": [
+            ""
+          ],
+          "bqybtsecjs": [
+            "0.00"
+          ],
+          "bqybtsejyfj": [
+            "0.00"
+          ],
+          "bqybtsedfjyfj": [
+            "0.00"
+          ]
+        },
+        {
+          "ewblxh": [
+            "2"
+          ],
+          "lmc": [
+            "本年累计"
+          ],
+          "asysljsxse": [
+            "2444128.47"
+          ],
+          "yshwxse": [
+            "2444128.47"
+          ],
+          "yslwxse": [
+            "0.00"
+          ],
+          "syslNsjctzxse": [
+            "0.00"
+          ],
+          "ajybfjsxse": [
+            "0.00"
+          ],
+          "jybfNsjctzxse": [
+            "0.00"
+          ],
+          "mdtbfckxse": [
+            "0.00"
+          ],
+          "msxse": [
+            "0.00"
+          ],
+          "mshwxse": [
+            "0.00"
+          ],
+          "mslwxse": [
+            "0.00"
+          ],
+          "xxse": [
+            "219971.52"
+          ],
+          "jxse": [
+            "246005.16"
+          ],
+          "sqldse": [
+            "0.00"
+          ],
+          "jxsezc": [
+            "0.00"
+          ],
+          "mdtytse": [
+            "0.00"
+          ],
+          "syslNsjcybjse": [
+            "0.00"
+          ],
+          "ydksehj": [
+            ""
+          ],
+          "sjdkse": [
+            "0.00"
+          ],
+          "ynse": [
+            "0.00"
+          ],
+          "qmldse": [
+            "0.00"
+          ],
+          "jybfYnse": [
+            "0.00"
+          ],
+          "jybfNsjcybjse": [
+            "0.00"
+          ],
+          "ynsejze": [
+            "0.00"
+          ],
+          "ynsehj": [
+            "0.00"
+          ],
+          "qcwjse": [
+            "0.00"
+          ],
+          "ssckkjzyjkstse": [
+            "0.00"
+          ],
+          "bqyjse": [
+            "0.00"
+          ],
+          "fcyjse": [
+            ""
+          ],
+          "ckkjzyjksyjse": [
+            ""
+          ],
+          "bqjnsqynse": [
+            "0.00"
+          ],
+          "bqjnqjse": [
+            "0.00"
+          ],
+          "qmwjse": [
+            "0.00"
+          ],
+          "qmwjseQjse": [
+            ""
+          ],
+          "bqybtse": [
+            ""
+          ],
+          "jzjtsjtse": [
+            ""
+          ],
+          "qcwjcbse": [
+            "0.00"
+          ],
+          "bqrkcbse": [
+            "0.00"
+          ],
+          "qmwjcbse": [
+            "0.00"
+          ],
+          "sqr": [
+            ""
+          ],
+          "smrxm": [
+            ""
+          ],
+          "slr": [
+            ""
+          ],
+          "bqybtsecjs": [
+            "0.0"
+          ],
+          "bqybtsejyfj": [
+            "0.0"
+          ],
+          "bqybtsedfjyfj": [
+            "0.0"
+          ]
+        },
+        {
+          "ewblxh": [
+            "3"
+          ],
+          "lmc": [
+            "本月数"
+          ],
+          "asysljsxse": [
+            "0.00"
+          ],
+          "yshwxse": [
+            "0.00"
+          ],
+          "yslwxse": [
+            "0.00"
+          ],
+          "syslNsjctzxse": [
+            "0.00"
+          ],
+          "ajybfjsxse": [
+            "0.00"
+          ],
+          "jybfNsjctzxse": [
+            "0.00"
+          ],
+          "mdtbfckxse": [
+            ""
+          ],
+          "msxse": [
+            ""
+          ],
+          "mshwxse": [
+            ""
+          ],
+          "mslwxse": [
+            ""
+          ],
+          "xxse": [
+            "0.00"
+          ],
+          "jxse": [
+            "0.00"
+          ],
+          "sqldse": [
+            "0.00"
+          ],
+          "jxsezc": [
+            "0.00"
+          ],
+          "mdtytse": [
+            ""
+          ],
+          "syslNsjcybjse": [
+            ""
+          ],
+          "ydksehj": [
+            "0.00"
+          ],
+          "sjdkse": [
+            "0.00"
+          ],
+          "ynse": [
+            "0.00"
+          ],
+          "qmldse": [
+            "0.00"
+          ],
+          "jybfYnse": [
+            "0.00"
+          ],
+          "jybfNsjcybjse": [
+            ""
+          ],
+          "ynsejze": [
+            "0.00"
+          ],
+          "ynsehj": [
+            "0.00"
+          ],
+          "qcwjse": [
+            "0.00"
+          ],
+          "ssckkjzyjkstse": [
+            ""
+          ],
+          "bqyjse": [
+            "0.00"
+          ],
+          "fcyjse": [
+            "0.00"
+          ],
+          "ckkjzyjksyjse": [
+            ""
+          ],
+          "bqjnsqynse": [
+            "0.00"
+          ],
+          "bqjnqjse": [
+            "0.00"
+          ],
+          "qmwjse": [
+            "0.00"
+          ],
+          "qmwjseQjse": [
+            "0.00"
+          ],
+          "bqybtse": [
+            "0.00"
+          ],
+          "jzjtsjtse": [
+            "0.00"
+          ],
+          "qcwjcbse": [
+            ""
+          ],
+          "bqrkcbse": [
+            ""
+          ],
+          "qmwjcbse": [
+            ""
+          ],
+          "sqr": [
+            ""
+          ],
+          "smrxm": [
+            ""
+          ],
+          "slr": [
+            ""
+          ],
+          "bqybtsecjs": [
+            ""
+          ],
+          "bqybtsejyfj": [
+            ""
+          ],
+          "bqybtsedfjyfj": [
+            ""
+          ]
+        },
+        {
+          "ewblxh": [
+            "4"
+          ],
+          "lmc": [
+            "本年累计"
+          ],
+          "asysljsxse": [
+            "0.00"
+          ],
+          "yshwxse": [
+            "0.00"
+          ],
+          "yslwxse": [
+            "0.00"
+          ],
+          "syslNsjctzxse": [
+            "0.00"
+          ],
+          "ajybfjsxse": [
+            "0.00"
+          ],
+          "jybfNsjctzxse": [
+            "0.00"
+          ],
+          "mdtbfckxse": [
+            ""
+          ],
+          "msxse": [
+            ""
+          ],
+          "mshwxse": [
+            ""
+          ],
+          "mslwxse": [
+            ""
+          ],
+          "xxse": [
+            "0.00"
+          ],
+          "jxse": [
+            "0.00"
+          ],
+          "sqldse": [
+            ""
+          ],
+          "jxsezc": [
+            "0.00"
+          ],
+          "mdtytse": [
+            ""
+          ],
+          "syslNsjcybjse": [
+            ""
+          ],
+          "ydksehj": [
+            ""
+          ],
+          "sjdkse": [
+            "0.00"
+          ],
+          "ynse": [
+            "0.00"
+          ],
+          "qmldse": [
+            ""
+          ],
+          "jybfYnse": [
+            "0.00"
+          ],
+          "jybfNsjcybjse": [
+            ""
+          ],
+          "ynsejze": [
+            "0.00"
+          ],
+          "ynsehj": [
+            "0.00"
+          ],
+          "qcwjse": [
+            "0.00"
+          ],
+          "ssckkjzyjkstse": [
+            ""
+          ],
+          "bqyjse": [
+            "0.00"
+          ],
+          "fcyjse": [
+            ""
+          ],
+          "ckkjzyjksyjse": [
+            ""
+          ],
+          "bqjnsqynse": [
+            "0.00"
+          ],
+          "bqjnqjse": [
+            "0.00"
+          ],
+          "qmwjse": [
+            "0.00"
+          ],
+          "qmwjseQjse": [
+            ""
+          ],
+          "bqybtse": [
+            ""
+          ],
+          "jzjtsjtse": [
+            "0.00"
+          ],
+          "qcwjcbse": [
+            ""
+          ],
+          "bqrkcbse": [
+            ""
+          ],
+          "qmwjcbse": [
+            ""
+          ],
+          "sqr": [
+            ""
+          ],
+          "smrxm": [
+            ""
+          ],
+          "slr": [
+            ""
+          ],
+          "bqybtsecjs": [
+            ""
+          ],
+          "bqybtsejyfj": [
+            ""
+          ],
+          "bqybtsedfjyfj": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "slxxForm": [
+    {
+      "sfdlsb": [
+        ""
+      ],
+      "dlrmc": [
+        ""
+      ],
+      "dlrdz": [
+        ""
+      ],
+      "dlrsfzjzlDm1": [
+        ""
+      ],
+      "dlrsfzjhm1": [
+        ""
+      ],
+      "sqr": [
+        ""
+      ],
+      "smr": [
+        ""
+      ],
+      "slrq": [
+        ""
+      ],
+      "slr": [
+        ""
+      ],
+      "slswjg": [
+        ""
+      ]
+    }
+  ]
+}

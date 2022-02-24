@@ -1,0 +1,118 @@
+{
+  "zzsjmssbmxbjsxmGrid": [
+    {
+      "zzsjmssbmxbjsxmGridlbVO": [
+        {
+          "ewbhxh": [
+            "1"
+          ],
+          "hmc": [
+            "合计"
+          ],
+          "swsxDm": [
+            ""
+          ],
+          "qcye": [
+            "0.00"
+          ],
+          "bqfse": [
+            "0.00"
+          ],
+          "bqydjse": [
+            "0.00"
+          ],
+          "bqsjdjse": [
+            "0.00"
+          ],
+          "qmye": [
+            "0.00"
+          ]
+        }
+      ]
+    }
+  ],
+  "zzsjmssbmxbmsxmGrid": [
+    {
+      "zzsjmssbmxbmsxmGridlbVO": [
+        {
+          "ewbhxh": [
+            "1"
+          ],
+          "hmc": [
+            "合计"
+          ],
+          "swsxDm": [
+            ""
+          ],
+          "mzzzsxmxse": [
+            "0.00"
+          ],
+          "bqsjkcje": [
+            "0.00"
+          ],
+          "kchmsxse": [
+            "0.00"
+          ],
+          "msxsedyjxse": [
+            ""
+          ],
+          "mse": [
+            ""
+          ]
+        },
+        {
+          "ewbhxh": [
+            "2"
+          ],
+          "hmc": [
+            "出口免税"
+          ],
+          "swsxDm": [
+            ""
+          ],
+          "mzzzsxmxse": [
+            "0.00"
+          ],
+          "bqsjkcje": [
+            ""
+          ],
+          "kchmsxse": [
+            ""
+          ],
+          "msxsedyjxse": [
+            ""
+          ],
+          "mse": [
+            ""
+          ]
+        },
+        {
+          "ewbhxh": [
+            "3"
+          ],
+          "hmc": [
+            "其中：跨境服务"
+          ],
+          "swsxDm": [
+            ""
+          ],
+          "mzzzsxmxse": [
+            "0.00"
+          ],
+          "bqsjkcje": [
+            ""
+          ],
+          "kchmsxse": [
+            ""
+          ],
+          "msxsedyjxse": [
+            ""
+          ],
+          "mse": [
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

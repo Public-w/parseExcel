@@ -3,7 +3,7 @@ const excel = require('./util')
 const path = require('path');
 const fs = require('fs-extra');
 const XLSX = require('xlsx')
-const excelPath = path.resolve(__dirname, `./excel/all.xlsx`);
+const excelPath = path.resolve(__dirname, `./excel/henan.xls`);
 
 // 获取
 const options = {
@@ -33,6 +33,7 @@ function formatResult(data) {
   });
   fs.outputFile(`${__dirname}/__excel__/sheet.json`,JSON.stringify(sheetArr));
   // const last = excel.parseExcel(sheetArr[0].list, )
+  // console.log(last)
   return last
 }
 
